@@ -1,9 +1,9 @@
 # Conversational-QA-Chatbot-using-RAG
-**# Here tried to create Conversational QA
-**# Scrapped wesbite info using beautiful soup
-**# passed to the model as RAG
-**# ChatBot will be used following pieces of retrieved context to answer 
-**# if its not in doc will throw don't know 
 
-**# ALso, tried to save hisotry so that contect doesn't get loose
-**
+Scraped website content using BeautifulSoup to build a custom knowledge base
+
+Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain
+
+Designed the chatbot to respond using only the retrieved context; if relevant information is not found, it replies with "I don't know"
+
+Integrated conversation history management to maintain context across interactions
